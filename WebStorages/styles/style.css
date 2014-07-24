@@ -1,0 +1,36 @@
+div, input, body, html, ul, li {
+    padding: 0;
+    margin:0;
+}
+
+#validation-message, #win-message {
+    color: red;
+    width: 200px;
+}
+
+#game {
+    position: absolute;
+    top:50px;
+    left: 50px;
+}
+
+#current-result, #high-scores {
+    position: absolute;
+    top:50px;
+    left: 300px;
+    color: limegreen;
+}
+
+#guess-table{
+    color: limegreen;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#guess-table div{
+    font-weight: normal;
+}
+
+ul{
+    list-style-type: decimal;
+}
